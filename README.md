@@ -18,11 +18,11 @@ We aim to analyze and mix two audios in order to synthesize new music, we do thi
 	
 # How to run-
 
-		The algorithm is implemented in PyTorch which can run on both GPU and CPU.
+  The algorithm is implemented in PyTorch which can run on both GPU and CPU.
 		
-		To run: python NeuralStyleTransfer.py ContentAudio StyleAudio
+  To run: python NeuralStyleTransfer.py ContentAudio StyleAudio
 		
-		Output Format : output_1D_(no of filters)_iter(no of iterations)_c(content audio)_s(style audio)_sw(style weight)_k(kernel size)_s(stride)_p(padding).wav
+  Output Format : output_1D_(no of filters)_iter(no of iterations)_c(content audio)_s(style audio)_sw(style weight)_k(kernel size)_s(stride)_p(padding).wav
 		[For changing name: Change k, s and p manually]
 
 # Problems Faced-
