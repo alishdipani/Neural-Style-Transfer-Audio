@@ -22,7 +22,7 @@ We aim to analyze and mix two audios in order to synthesize new music, we do thi
 		
   To run: python NeuralStyleTransfer.py ContentAudio StyleAudio
 		
-  Output Format : output_1D_(no of filters)_iter(no of iterations)_c(content audio)_s(style audio)_sw(style weight)_k(kernel size)_s(stride)_p(padding).wav
+  Output Format(Name Of Output File) : output1D_(no of filters)_iter(no of iterations)_c(content audio)_s(style audio)_sw(style weight)_k(kernel size)_s(stride)_p(padding).wav
 		[For changing name: Change k, s and p manually]
 
 # Problems Faced -
