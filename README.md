@@ -16,7 +16,7 @@ We aim to analyze and mix two audios in order to synthesize new music, we do thi
 	
 	4. numpy and matplotlib.
 	
-# How to run-
+# How to run -
 
   The algorithm is implemented in PyTorch which can run on both GPU and CPU.
 		
@@ -25,7 +25,7 @@ We aim to analyze and mix two audios in order to synthesize new music, we do thi
   Output Format : output_1D_(no of filters)_iter(no of iterations)_c(content audio)_s(style audio)_sw(style weight)_k(kernel size)_s(stride)_p(padding).wav
 		[For changing name: Change k, s and p manually]
 
-# Problems Faced-
+# Problems Faced -
 
 
   1. Library for loading Audio files -
@@ -57,7 +57,7 @@ We aim to analyze and mix two audios in order to synthesize new music, we do thi
 	  * 1D convolutions should be used instead of 2D convolutions because each frequency has it's own samples which should not be interlinked with samples of other frequencies and also it causes unnecessary noise.
 
 
-  4. Loss Function and optimizer - 
+  4. Loss Function and Optimizer - 
 
 	  * Only style loss is considered and not the content loss.
 	
@@ -85,7 +85,7 @@ We aim to analyze and mix two audios in order to synthesize new music, we do thi
   
   4. Paper on Audio Style Transfer By Eric Grinstein, Ngoc Duong, Alexey Ozerov, Patrick Perez : https://arxiv.org/abs/1710.11385
   
-# More Resources(Not Implemented)- 
+# More Resources(Not Implemented) - 
 
   1. Paper From NIPS 2017 By Prateek Verma, Julius O. Smith : https://arxiv.org/abs/1801.01589
   
