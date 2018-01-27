@@ -1,10 +1,10 @@
 # Neural-Style-Transfer-Audio
 
-This is PyTorch Implementation Of Naural Style Transfer Algorithm which is modified for Audios.
+This is PyTorch Implementation Of Neural Style Transfer Algorithm which is modified for Audios.
 
 # Aim - 
 
-We aim to analyse and mix two audios in order to synthesize new music, we do this by applying Neural Style Transfer on two Audios to transfer style of a style audio on a content audio.
+We aim to analyze and mix two audios in order to synthesize new music, we do this by applying Neural Style Transfer on two Audios to transfer style of a style audio on a content audio.
 
 # Dependencies - 
 
@@ -30,7 +30,7 @@ We aim to analyse and mix two audios in order to synthesize new music, we do thi
 
   1. Library for loading Audio files -
 	  
-	  * To load audio files librosa should be used instead of audiolab because lirosa has more features to manipulate and analyse audio files.
+	  * To load audio files librosa should be used instead of audiolab because lirosa has more features to manipulate and analyze audio files.
 
 
   2. Preprocessing - 
@@ -39,9 +39,9 @@ We aim to analyse and mix two audios in order to synthesize new music, we do thi
 	
 	  * If we apply Neural style without fourier transformations i.e. on time domain, the output contains a lot of noise and so the audios do not mix properly.
 
-	  * The matrices obtained should not be downscaled beacuse it would result in loss of information and also if a channel is dropped it creates an anomaly during inverse fourier 		transformation.
+	  * The matrices obtained should not be downscaled beacause it would result in loss of information and also if a channel is dropped it creates an anomaly during inverse fourier transformation.
 	  
-	  * Duration of audio loaded is kept 58.04 so as to make the matrice sizes convenient.
+	  * Duration of audio loaded is kept 58.04 so as to make the matrix sizes convenient.
 
 	  * Matrices should be resized to correct dimensions.
 	
@@ -54,7 +54,7 @@ We aim to analyse and mix two audios in order to synthesize new music, we do thi
 
 	  * Pooling should be avoided as it increases the computations(slowing down our model) and also results in loss of information.
 
-	  * 1D convolutions should be used instead of 2D convolutions because each frequency has it's own samples which should not be interlinked with samples of other frequencies and also it 	causes unnecessary noise.
+	  * 1D convolutions should be used instead of 2D convolutions because each frequency has it's own samples which should not be interlinked with samples of other frequencies and also it causes unnecessary noise.
 
 
   4. Loss Function and optimizer - 
