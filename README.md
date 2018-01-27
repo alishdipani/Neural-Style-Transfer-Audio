@@ -8,13 +8,13 @@ We aim to analyze and mix two audios in order to synthesize new music, we do thi
 
 # Dependencies - 
 
-	1. python 2.7
+  1. python 2.7
 	
-	2. PyTorch 
+  2. PyTorch 
 	
-	3. librosa
+  3. librosa
 	
-	4. numpy and matplotlib.
+  4. numpy and matplotlib.
 	
 # How to run -
 
@@ -24,6 +24,8 @@ We aim to analyze and mix two audios in order to synthesize new music, we do thi
 		
   Output Format(Name Of Output File) : output1D_(no of filters)_iter(no of iterations)_c(content audio)_s(style audio)_sw(style weight)_k(kernel size)_s(stride)_p(padding).wav
 		[For changing name: Change k, s and p manually]
+		
+  A Sample Output is also provided with alpha.wav as content and beta.wav as style.
 
 # Problems Faced -
 
