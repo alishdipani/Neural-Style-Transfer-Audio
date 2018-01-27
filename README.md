@@ -1,9 +1,10 @@
 # Neural-Style-Transfer-Audio
+
 This is PyTorch Implementation Of Naural Style Transfer Algorithm which is modified for Audios.
 
 # Aim - 
 
-We aim to analyse and mix two audios in order to synthesize new music, we do this by applying Neural Style Transfer of a style audio on a content audio.
+We aim to analyse and mix two audios in order to synthesize new music, we do this by applying Neural Style Transfer on two Audios to transfer style of a style audio on a content audio.
 
 # Dependencies - 
 
