@@ -26,6 +26,11 @@ We aim to analyze and mix two audios in order to synthesize new music, we do thi
 		[For changing name: Change k, s and p manually]
 		
   A Sample Output is also provided with alpha.wav as content and beta.wav as style.
+  
+# How to plot graph-
+
+  To plot: python graphs.py [Content Audio file name] [Style Audio file name] [Output File name]
+
 
 # Problems Faced -
 
