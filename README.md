@@ -86,7 +86,7 @@ We aim to analyze and mix two audios in order to synthesize new music, we do thi
 
 # References - 
 
-  1. Original Paper on style transfer : https://arxiv.org/abs/1508.06576
+  1. Original Paper on Neural Style Transfer : https://arxiv.org/abs/1508.06576
 	
   2. Blog by Dmitry Ulynov : https://dmitryulyanov.github.io/audio-texture-synthesis-and-style-transfer/
 	
