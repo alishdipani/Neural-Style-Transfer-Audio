@@ -43,7 +43,7 @@ We aim to analyze and mix two audios in order to synthesize new music, we do thi
 	  * To load audio files librosa should be used instead of audiolab because lirosa has more features to manipulate and analyze audio files.
 
 
-  2. Preprocessing - ]
+  2. Preprocessing -
 
 	  * While working with audio files, the feature to work on is frequency and librosa loads audios as a function of time so fourier transformation is performed on the audio.
 	
