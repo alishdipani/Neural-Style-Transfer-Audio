@@ -1,4 +1,4 @@
-# Neural-Style-Transfer-Audio
+# Neural-Style-Transfer-Audio [[Blog]](https://alishdipani.github.io/signal_processing/2018/08/29/Neural-Style-Transfer-Audio/)
 
 This is PyTorch Implementation Of Neural Style Transfer Algorithm which is modified for Audios.  
 Please check out my blog [[link]](https://alishdipani.github.io/signal_processing/2018/08/29/Neural-Style-Transfer-Audio/) for detailed explanation.
