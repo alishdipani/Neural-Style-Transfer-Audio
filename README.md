@@ -1,7 +1,10 @@
-# Neural-Style-Transfer-Audio [[Blog]](https://alishdipani.github.io/signal_processing/2018/08/29/Neural-Style-Transfer-Audio/)
+# Neural-Style-Transfer-Audio [[Blog]](https://software.intel.com/en-us/articles/neural-style-transfer-on-audio-signals)
 
 This is PyTorch Implementation Of Neural Style Transfer Algorithm which is modified for Audios.  
-Please check out my blog [[link]](https://alishdipani.github.io/signal_processing/2018/08/29/Neural-Style-Transfer-Audio/) for detailed explanation.
+  
+
+## My Blog has been published on Intel's website :  [[link]](https://software.intel.com/en-us/articles/neural-style-transfer-on-audio-signals)  
+Do check it out for a deailed explanation.
 
 # Aim - 
 
