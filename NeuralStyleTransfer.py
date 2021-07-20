@@ -9,6 +9,7 @@ from sys import argv
 import torchvision.transforms as transforms
 import copy
 import librosa
+import soundfile as sf
 
 class CNNModel(nn.Module):
 		def __init__(self):
@@ -224,6 +225,6 @@ if __name__ == '__main__':
 		p = np.angle(librosa.stft(x, N_FFT))
 
 	OUTPUT_FILENAME = 'output1D_4096_iter'+str(num_steps)+'_c'+content_audio_name+'_s'+style_audio_name+'_sw'+str(style_weight)+'_k3s1p1.wav'
-	librosa.output.write_wav(OUTPUT_FILENAME, x, style_sr)
+	sf.write(OUTPUT_FILENAME, x, style_sr)
 
 	print('DONE...')
