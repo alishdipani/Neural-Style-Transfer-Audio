@@ -95,9 +95,11 @@ if __name__ == '__main__':
 	if torch.cuda.is_available():
 		style_float = Variable((torch.from_numpy(style_audio)).cuda())
 		content_float = Variable((torch.from_numpy(content_audio)).cuda())	
+		print('using CUDA')
 	else:
 		style_float = Variable(torch.from_numpy(style_audio))
 		content_float = Variable(torch.from_numpy(content_audio))
+		print('using CPU')
 	#style_float = style_float.unsqueeze(0)
 	
 	#style_float = style_float.view([1025,1,2500])
@@ -190,7 +192,7 @@ if __name__ == '__main__':
 				run[0] += 1
 				if run[0] % 100 == 0:
 					print("run {}:".format(run))
-					print('Style Loss : {:8f}'.format(style_score.data[0])) #CHANGE 4->8 
+					print('Style Loss : {:8f}'.format(style_score.item())) #CHANGE 4->8 
 					print()
 
 				return style_score
